@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <div>
+            <div class="numbers">
+                <h1 id="min">0</h1>
+                
+                <p>minutes</p>
+            </div>
+            <div class="numbers">
+                <h1 id="sec">0</h1>
+                <p>seconds</p>
+            </div>
+            <div class="numbers">
+                <h1 id="centi">0</h1>
+                <p>centiseconds</p>
+            </div>
+            <br><button class="btn btn-primary" onclick="start()" id="start">start</button>
+            <button id="pause" class="btn btn-secondary" onclick="pause()">pause</button>
+            <button id="reset" class="btn btn-danger" onclick="reset()">reset</button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
